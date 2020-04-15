@@ -1,0 +1,121 @@
+#banniere{
+
+    height: 20%;
+    width: 100%; 
+    background-image : url(/image/banniere-ragdoll.png);
+    text-align: center;
+    }
+    
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    background-color:#e8e3e3;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px gray;
+}
+nav ul{
+    width: 80%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Roboto', cursive;
+    border-left: 3px solid transparent;
+    font-size: 15px;
+    padding-left: 35px;
+    transition: 0.5s;
+}
+body {
+    margin: 0;
+    
+}
+
+#slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 650px;
+}
+
+#slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    max-height: 100%;
+}
+
+#slides figure {
+    display: inline-block;
+    width: 100vw;
+    max-height: 100%;
+    margin: 0;
+}
+
+#slides figure img {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#slides figure figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 2.5em 0;
+    text-align: center;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+@keyframes slide {
+    0%, 20%, 100% {
+        left: 0; /*1ère image*/
+    }
+    35%, 50% {
+        left: -100vw; /*2ème image*/
+    }
+    70%, 95% {
+        left: -200vw; /*3ème image*/
+    }
+}
+#slides {
+  
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color:#929396;
+    background-attachment: fixed;
+    font-size: 15px;
+    text-align: center;
+    color:black;
+}
+
+ion-icon {
+   padding: 15px;
+  font-size: 25px;
+  color: black;
+  
+ }
+ 

@@ -1,0 +1,24 @@
+#ragdoll{
+    background-color:#E1C3C3;
+    height:700px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: normal;
+   
+    
+}
+h1 {
+    text-align: center;
+    padding-top:30px;
+    font-family: "Dancing Script";
+  font-size: 30px;
+    
+}
+#ragdoll img {
+max-width: 30%;
+top: 420px;
+right: 800px;
+position: absolute;
+float: center;
+
+}
