@@ -1,18 +1,14 @@
-
-
-#chatterie{
+#conseils{
     background-color:#E1C3C3;
     height:700px;
     margin-left: 10%;
     margin-right: 10%;
     font-style: normal;
-   
-    
 }
 h1 {
     text-align: center;
     color: #ffff;
-    padding-top:15px;
+    padding-top:30px;
     font-family: "Dancing Script";
     font-size: 30px;
     left: 642px;
@@ -20,13 +16,10 @@ h1 {
     border-left: 10%;
     border-right: 10%;
 }
-
-#chatterie img {
-max-width: 30%;
-top: 420px;
-left: 800px;
-position: absolute;
-float: center;
-
-}
-
+#conseils img {
+    max-width: 30%;
+    top: 500px;
+    left: 950px;
+    position: absolute;
+    float: center; 
+    }

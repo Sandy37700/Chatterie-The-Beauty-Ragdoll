@@ -1,24 +1,24 @@
 #femelles{
     background-color:#E1C3C3;
-    height:700px;
+    height:800px;
     margin-left: 10%;
     margin-right: 10%;
-    font-style: normal;
-   
+    font-style: normal; 
     
 }
 h1 {
     text-align: center;
+    color: #ffff;
     padding-top:30px;
     font-family: "Dancing Script";
   font-size: 30px;
+  left: 642px;
+  background: #684F43;
+  border-left: 10%;
+  border-right: 10%;
     
 }
-#femelles img {
-max-width: 30%;
-top: 420px;
-right: 800px;
-position: absolute;
-float: center;
-
+#femelles img  {
+    margin-left:15%;
+  
 }

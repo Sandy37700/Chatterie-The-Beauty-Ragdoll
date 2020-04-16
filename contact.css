@@ -1,0 +1,51 @@
+#contact{
+    background-color:#E1C3C3;
+    height:700px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: normal;
+}
+h1 {
+    text-align: center;
+    color: #ffff;
+    padding-top:30px;
+    font-family: "Dancing Script";
+    font-size: 30px;
+    left: 642px;
+    background: #684F43;
+    border-left: 10%;
+    border-right: 10%;
+}
+
+iframe {
+    margin-right: 60%;
+    margin-bottom: -45%;
+ 
+}
+*{
+    font-family: "Dancing Script";
+  }
+   fieldset{
+    background-color: RGBa(240, 160, 0, 0.2);
+    width: 300px;
+   margin-top: 20px;
+  
+
+  }
+  legend{
+    font-weight: bold;
+  }
+  .champ{
+    margin-bottom: 10px;
+  }
+  textarea{
+    width: 80%;
+    height: 100px;
+  }
+  input{
+    width: 300px;
+  }
+  
+  input[type="submit"]{
+    width: 100px;
+  }

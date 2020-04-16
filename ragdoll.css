@@ -9,9 +9,14 @@
 }
 h1 {
     text-align: center;
+    color: #ffff;
     padding-top:30px;
     font-family: "Dancing Script";
-  font-size: 30px;
+    font-size: 30px;
+    left: 642px;
+    background: #684F43;
+    border-left: 10%;
+    border-right: 10%;
     
 }
 #ragdoll img {

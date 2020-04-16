@@ -1,10 +1,9 @@
 #banniere{
 
-    height: 20%;
-    width: 100%; 
-    background-image : url(/image/banniere-ragdoll.png);
-    text-align: center;
-    }
+height: 20%; 
+width: 100%; 
+background-image : url(/image/banniere-ragdoll.png);
+}
     
 body{
     margin:0;
@@ -43,12 +42,11 @@ body {
     margin: 0;
     
 }
-
 #slider {
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    height: 650px;
+    height: 700px;
 }
 
 #slides {
@@ -68,6 +66,7 @@ body {
 
 #slides figure img {
     width: 100%;
+    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -84,19 +83,19 @@ body {
 }
 @keyframes slide {
     0%, 20%, 100% {
-        left: 0; /*1ère image*/
+        left: 0; 
     }
     35%, 50% {
-        left: -100vw; /*2ème image*/
+        left: -100vw; 
     }
     70%, 95% {
-        left: -200vw; /*3ème image*/
+        left: -200vw;
     }
 }
 #slides {
-  
+    
     animation-name: slide;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
