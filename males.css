@@ -1,4 +1,4 @@
-#femelles {
+#males {
     background-color: #E1C3C3;
     height: 800px;
     margin-left: 10%;
@@ -15,51 +15,51 @@ h1 {
     font-family: "Dancing Script";
     font-size: 30px;
     left: 642px;
-    background: #684F43; 
+    background: #684F43;
     border-left: 10%;
     border-right: 10%;
 
-
 }
-#femelles img {
+#males img {
     margin-left: 15%;
     margin-top: 10%;
     box-shadow: 0px 0px 5px 5px #684F43;
-   
 
 }
 
-#femelles .femelles-presentation {
+#males .males-presentation {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
-
+    margin-bottom: 20px;
+    
+    
 }
 
-#femelles .femelles-image {
+#males .males-image {
     height: 180px;
     width: 300px;
    
 }
 
-#femelles .femelles-image img {
+#males .males-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-#femelles .femelles-description {
+#males .males-description {
 
     width: 475px;
     padding-top: 10px;
     font-family: Dancing Script;
     font-size: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border: 3px solid #929396;
     text-align: center;
     background: #E1C3C3
     
+  
 }
-#femelles .femelles-description ul{
+#males .males-description ul{
     list-style: none;
 }

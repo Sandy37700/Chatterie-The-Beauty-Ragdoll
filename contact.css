@@ -1,51 +1,88 @@
-#contact{
-    background-color:#E1C3C3;
-    height:700px;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-style: normal;
+#contact {
+  background-color: #E1C3C3;
+  height: 700px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: normal;
 }
+
+#contact .contact-content {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+#contact .contact-infos div {
+ 
+  width: 400px;
+  padding-top: 10px;
+  font-family:"Dancing Script";
+  font-size: 20px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 3px solid #929396;
+  text-align: left;
+  background: #E1C3C3
+}
+
 h1 {
-    text-align: center;
-    color: #ffff;
-    padding-top:30px;
-    font-family: "Dancing Script";
-    font-size: 30px;
-    left: 642px;
-    background: #684F43;
-    border-left: 10%;
-    border-right: 10%;
+  text-align: center;
+  color: #ffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Dancing Script";
+  font-size: 30px;
+  left: 400px;
+  background: #684F43;
+  border-left: 20%;
+  border-right: 20%;
 }
 
 iframe {
-    margin-right: 60%;
-    margin-bottom: -45%;
+  margin-right: 60%;
+  margin-bottom: -45%;
+
+}
+
+* {
+  font-family: "Dancing Script";
+}
+
+fieldset {
+  background-color: #E1C3C3;
+  width: 300px;
+  margin-top: 20px;
+
+
+
+}
+
+legend {
+  font-weight: bold;
+}
+
+.champ {
+  margin-bottom: 10px;
+
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  
+}
+
+input {
+  width: 300px;
  
 }
-*{
-    font-family: "Dancing Script";
-  }
-   fieldset{
-    background-color: RGBa(240, 160, 0, 0.2);
-    width: 300px;
-   margin-top: 20px;
-  
 
-  }
-  legend{
-    font-weight: bold;
-  }
-  .champ{
-    margin-bottom: 10px;
-  }
-  textarea{
-    width: 80%;
-    height: 100px;
-  }
-  input{
-    width: 300px;
-  }
-  
-  input[type="submit"]{
-    width: 100px;
-  }
+input[type="submit"] {
+  width: 100px;
+}
